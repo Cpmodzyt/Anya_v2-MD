@@ -8,17 +8,17 @@ global.zApiKey = {// if this API key get expired then please go to https://www.f
 }
 
 
-global.botname = process.env.BotName || "Queen Anya" 
-global.author = process.env.Author || "@PikaBotz" 
+global.botname = process.env.BotName || "𝙲𝚙'𝚜  𝙱𝚘𝚝  />  ◉" 
+global.author = process.env.Author || "@ItzCp" 
 global.packname = process.env.PackName || "Queen Anya v2 MD" 
 global.myweb = process.env.Web || "https://github.com/PikaBotz" 
-global.footer = process.env.Footer || "© Queen Anya Bot" 
+global.footer = process.env.Footer || "© Itz Cp's Bot" 
 global.prefa = process.env.Prefix || ['-'] 
 global.themeemoji = process.env.ThemeEmoji || "🎐" 
-global.ownername = process.env.Owner_Name || "Pika~Kun" 
-global.ownernumber = process.env.Owner_Number || "916900904828" 
-global.adress = process.env.Continent || "Asia, India, Assam" 
-global.timezone = process.env.TimeZone || "Asia/Kolkata" 
+global.ownername = process.env.Owner_Name || "Itz-Cp" 
+global.ownernumber = process.env.Owner_Number || "94765665354" 
+global.adress = process.env.Continent || "Asia, Srilanka, sabaragamwa" 
+global.timezone = process.env.TimeZone || "Asia/colombo" 
 global.instagramId = process.env.Insta || "8.08_only_mine" 
 global.email = process.env.Email_Id || "example@example.com" 
 
@@ -83,7 +83,7 @@ global.Tips = [
 global.image_1 = readFileSync('./lib/Assets/image_1.jpg') // Thumbnail for allmenu command
 global.image_2 = readFileSync('./lib/Assets/image_2.jpg') // null image
 global.image_3 = readFileSync("./lib/Assets/image_3.jpg") // Thumbnail for Dashboard
-global.menu_pic = "https://i.ibb.co/PhDcZTM/Thumbnail.png";
+global.menu_pic = "https://telegra.ph/file/9a0d4053450ccfb62aaad.jpg";
 
 global.message = {
     success: "✅ 𝚂𝚞𝚌𝚌𝚎𝚜𝚜! 𝙾𝚙𝚛𝚊𝚝𝚒𝚘𝚗 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍.",
@@ -101,17 +101,17 @@ global.message = {
 },
 
 module.exports = {
-  botname: process.env.BotName || "Queen Anya", 
-  author: process.env.Author || "@PikaBotz",
-  packname: process.env.PackName || "Queen Anya v2 MD",
+  botname: process.env.BotName || "𝙲𝚙'𝚜  𝙱𝚘𝚝  />  ◉", 
+  author: process.env.Author || "@ItzCp",
+  packname: process.env.PackName || "Itz Cp v2 MD",
   myweb: process.env.Web || "https://github.com/PikaBotz",
-  footer: process.env.Footer || "© Queen Anya Bot",
+  footer: process.env.Footer || "© Itz Cp's Bot",
   prefa: process.env.Prefix || ['-'],
   themeemoji: process.env.ThemeEmoji || "🎐",
-  ownername: process.env.Owner_Name || "Pika~Kun",
-  ownernumber: process.env.Owner_Number || "916900904828",
+  ownername: process.env.Owner_Name || "Itz-Cp",
+  ownernumber: process.env.Owner_Number || "94765665354",
   adress: process.env.Continent || "Asia, India, Assam",
-  timezone: process.env.TimeZone || "Asia/Kolkata", 
+  timezone: process.env.TimeZone || "Asia/Colombo", 
   instagramId: process.env.Insta || "8.08_only_mine",
   email: process.env.Email_Id || "example@example.com",
   warns: process.env.Warns_Limits || 3,
@@ -128,7 +128,7 @@ module.exports = {
   image_1: readFileSync('./lib/Assets/image_1.jpg'), // Thumbnail for allmenu command
   image_2: readFileSync('./lib/Assets/image_2.jpg'), // null image
   image_3: readFileSync("./lib/Assets/image_3.jpg"), // Thumbnail for Dashboard
-  menu_pic: "https://i.ibb.co/PhDcZTM/Thumbnail.png",
+  menu_pic: "https://telegra.ph/file/9a0d4053450ccfb62aaad.jpg",
   aliveMedia: readFileSync("./lib/Assets/aliveMedia.mp4"),
   menuMedia: readFileSync('./lib/Assets/menuMedia.mp4'),
   message: {
