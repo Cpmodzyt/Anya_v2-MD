@@ -248,7 +248,7 @@ apt apt install ffmpeg
 apt apt install libwebp 
 apt apt install imagrmagick
 apt install bash
-git clone https://github.com/PikaBotz/Anya_v2-MD
+git clone https://github.com/cpmodzyt/Anya_v2-MD
 cd Anya_v2-MD
 npm start
 ```
