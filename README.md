@@ -161,7 +161,7 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/PikaBotz/Anya_v2-MD
+git clone https://github.com/Cpmodzyt/Anya_v2-MD
 cd Anya_v2-MD
 yarn install
 npm start
