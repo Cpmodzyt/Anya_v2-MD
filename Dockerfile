@@ -1,8 +1,16 @@
-FROM quay.io/teamolduser/docker
+FROM node:lts-buster
 
-COPY . /root/Anyav2
-WORKDIR /root/Anyav2
-RUN apt install ffmpeg
-RUN yarn install --network-concurrency 1
-EXPOSE 8000
-CMD ["yarn", "start"]
+RUN apt-get update && \
+    apt-get install -y ffmpeg webp git && \
+    apt-get upgrade -y && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN git clone https://github.com/PikaBotz/Anya_v2-MD anya-v2
+
+WORKDIR /anya-v2
+
+RUN yarn install --production
+
+RUN yarn global add pm2
+
+CMD ["npm", "start"]
