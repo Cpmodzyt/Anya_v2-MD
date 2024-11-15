@@ -1,6 +1,5 @@
-
 # Use an official Node.js image as the base image
-FROM node:lts-buster
+FROM node:20.18.0
 
 # Set working directory
 WORKDIR /app
@@ -13,7 +12,7 @@ RUN npm install
 
 # Install required packages
 RUN apt-get update && \
-    apt-get install -y ffmpeg libwebp imagemagick && \
+    apt-get install -y ffmpeg libwebp-dev imagemagick && \
     rm -rf /var/lib/apt/lists/*
 
 # Copy application code
