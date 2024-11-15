@@ -5,7 +5,7 @@ RUN apt-get update && \
     apt-get upgrade -y && \
     rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/cpmodzyt/Anya_v2-MD anya-v2
+RUN git clone https://github.com/Cpmodzyt/Anya_v2-MD.git
 
 WORKDIR /anya-v2
 
