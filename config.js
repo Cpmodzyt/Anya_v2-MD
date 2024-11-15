@@ -8,25 +8,25 @@ module.exports = {
     /**
      * bot details and parameters
      */
-    botname: process.env.BotName || "Qᴜᴇᴇɴ ᴀɴʏᴀ ᴠ2",
-    footer: process.env.Footer || "© 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐐𝐮𝐞𝐞𝐧 𝐀𝐧𝐲𝐚 𝐁𝐨𝐭",
-    prefa: process.env.Prefix || "-",
+    botname: process.env.BotName || "I n t e r W o r l d",
+    footer: process.env.Footer || "© Powerd By Itzmecp .",
+    prefa: process.env.Prefix || ".",
     themeemoji: process.env.ThemeEmoji || "🎐",
 
     /**
      * owner details and parameters
      */
-    ownername: process.env.Owner_Name || "Pika~Kun",
+    ownername: process.env.Owner_Name || "Itzmecp",
     ownernumber: process.env.Owner_Number || "94773789258",
-    instagramId: process.env.Insta || "3.69_pika",
+    instagramId: process.env.Insta || "Itzmecp",
 
     /**
      * other details and parameters
      */
-    author: process.env.Author || "𝐏𝐢𝐤𝐚𝐁𝐨𝐭𝐳 🌚🌙",
-    packname: process.env.PackName || "𝕼𝖚𝖊𝖊𝖓 𝕬𝖓𝖞𝖆 𝖁2 𝕾𝖙𝖎𝖈𝖐𝖊𝖗 𝕻𝖆𝖈𝖐 🪀",
-    socialLink: process.env.Web || "https://github.com/PikaBotz",
-    groupLink: process.env.GcLink || "https://chat.whatsapp.com/E490r0wSpSr89XkCWeGtnX",
+    author: process.env.Author || "Itzmecp",
+    packname: process.env.PackName || "I n t e r W o r l d",
+    socialLink: process.env.Web || "https://t.me/Itzmecp",
+    groupLink: process.env.GcLink || "https://chat.whatsapp.com/HPl9gi585raKVZjzEmcvDH",
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: Number(process.env.Cooldown_Timer_Seconds) || 5, // default cooldown time per command in seconds
     mongoUrl: process.env.MongoDB || "mongodb+srv://AnimeFlix:Itzmecp@cluster0.qxdxy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
@@ -35,13 +35,13 @@ module.exports = {
     /**
      * thumbnails and medias
      */
-    image_1: readFileSync('./lib/Assets/image_1.jpg'), // primary image
-    image_2: readFileSync('./lib/Assets/image_2.jpg'), // secondry image
-    imageUrl: "https://i.ibb.co/ZKKSZHT/Picsart-23-06-24-13-36-01-843.jpg", // image url, to replace to your url upload your image to https://imgbb.com
-    imageMentionUrl: "https://i.ibb.co/ZKKSZHT/Picsart-23-06-24-13-36-01-843.jpg", // image for mention reply audio media
-    aliveMedia: readFileSync("./lib/Assets/aliveMedia.mp4"),
-    menuMedia: readFileSync('./lib/Assets/menuMedia.mp4'),
-    ownerMentionMp3: readFileSync('./lib/Assets/ownerMentionMp3.mp3'),  // audio for mention reply audio media
+    image_1: "https://i.ibb.co/5kmL7y2/file-2072.jpg", // primary image
+    image_2: "https://i.ibb.co/5kmL7y2/file-2072.jpg", // secondry image
+    imageUrl: "https://i.ibb.co/5kmL7y2/file-2072.jpg", // image url, to replace to your url upload your image to https://imgbb.com
+    imageMentionUrl: "https://i.ibb.co/5kmL7y2/file-2072.jpg", // image for mention reply audio media
+    aliveMedia: "https://i.ibb.co/5kmL7y2/file-2072.jpg",
+    menuMedia: "https://i.ibb.co/5kmL7y2/file-2072.jpg",
+    ownerMentionMp3: "https://i.ibb.co/5kmL7y2/file-2072.jpg",  // audio for mention reply audio media
 
     /**
      * core parameters and values
