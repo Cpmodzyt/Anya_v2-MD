@@ -8,7 +8,7 @@ module.exports = {
     /**
      * bot details and parameters
      */
-    botname: process.env.BotName || "I n t e r W o r l d",
+    botname: process.env.BotName || "Interworld",
     footer: process.env.Footer || "© Powerd By Itzmecp .",
     prefa: process.env.Prefix || ".",
     themeemoji: process.env.ThemeEmoji || "🎐",
